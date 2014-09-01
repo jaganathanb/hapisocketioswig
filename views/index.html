@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+{% block title %}Todo Tasks{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row join join-panel">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <h1>Chat App</h1>
+            <div class="well">
+                <form role="form">
+                    <div class="form-group">
+                        <label>People call me as,</label>
+                        <input type="text" class="form-control name" placeholder="Enter your name"><br/>
+                        <button type="button" class="btn btn-primary join">Join</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row people message-panel">
+        <div class="col-md-2 well">
+            <h4>People</h4>
+            <ul class="nav nav-pills nav-stacked people-list">
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <dl class="chat-messages">
+                            </dl>
+                        </div>
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <input type="text" class="form-control chat-text" placeholder="type here...">
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary send">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

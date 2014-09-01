@@ -1,0 +1,9 @@
+.message-panel, .join-panel {
+  margin: auto;
+  margin-top: 60px;
+}
+
+dl {
+  max-height: 400px;
+  overflow: auto;
+}

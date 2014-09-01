@@ -1,0 +1,48 @@
+{
+  "name": "node-koa-jade",
+  "version": "0.0.1",
+  "description": "A simple node app which explores node + koa + jade",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony app.js"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "jade"
+  ],
+  "engines": {
+    "node": "~0.11.11"
+  },
+  "dependencies": {
+    "koa": "~0.10.0",
+    "koa-logger": "~1.2.2",
+    "koa-static": "~1.4.6",
+    "koa-jade": "~0.2.1",
+    "co-views": "~0.2.0",
+    "koa-route": "~2.1.0",
+    "socket.io": "~1.0.6",
+    "grunt-contrib-sass": "~0.8.1",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-htmlhint": "~0.4.1",
+    "css-condense": "0.0.6",
+    "grunt-cssc": "~0.2.6",
+    "hapi": "~6.7.1",
+    "good": "~2.2.3"
+  },
+  "author": "Jaganathan B",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-cssc": "*",
+    "grunt-htmlhint": "*",
+    "matchdep": "*"
+  }
+}
